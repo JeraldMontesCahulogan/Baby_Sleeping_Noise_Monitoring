@@ -1,0 +1,4 @@
+1. Put the noise_monitoring folder to the htdocs of your xampp folder.
+2. in browser: http://localhost/phpmyadmin/index.php
+3. create a database named noise_monitoring, then paste the content of this file noise_monitoring.sql to the SQL tab of the database you've created.
+4. Put the noise_monitoring INO file in your Arduino folder.
