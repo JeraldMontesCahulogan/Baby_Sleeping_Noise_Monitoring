@@ -1,0 +1,39 @@
+🍼 Baby Sleeping Monitoring System
+
+The Baby Sleeping Monitoring System is an IoT-based project designed to help parents monitor the environment of their baby in real-time. Using a MAX9814 microphone amplifier module, the system continuously listens to the noise level in the baby’s room and sends alerts when loud sounds occur.
+
+This project provides a real-time noise dashboard, WhatsApp notifications, and a history log of all noise incidents that pass the defined threshold.
+
+
+
+🔊 Features:
+
+📡 Real-Time Noise Monitoring
+• The MAX9814 module (a high-quality microphone amplifier with automatic gain control) captures sound levels inside the baby’s room.
+• Noise data is updated live on the system dashboard.
+
+📈 Live Noise Visualization
+• Displays the current noise level in real time.
+• Helps parents understand patterns and changes in the room environment.
+
+📨 WhatsApp Alerts
+• If the noise level exceeds a specific threshold, the system automatically sends a WhatsApp message alert.
+• Ensures parents are notified instantly—even if they are away.
+
+📋 Noise History Table
+• Logs all noise exceedances.
+• Displays timestamp, detected noise level, and other relevant details.
+• Helps analyze frequent disturbances or trends.
+
+🧩 Hardware Used
+• MAX9814 – A microphone amplifier with automatic gain control (AGC), used for capturing sound levels.
+• Microcontroller (ESP32/Arduino/)
+
+🛠️ Software Stack
+• Frontend/Backend: PHP
+• Database: MYSQL
+• WhatsApp API
+
+
+🎯 Purpose:
+This project aims to provide parents with a simple, real-time safety monitoring tool to ensure that their baby’s sleeping environment is quiet and comfortable. By combining IoT hardware and smart notifications, the system improves awareness and peace of mind.
